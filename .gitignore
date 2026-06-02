@@ -1,0 +1,24 @@
+# Credentials & keys
+notes-app-key.pem
+*.pem
+*.pub
+
+# Environment / secrets
+.env
+*.tfvars
+!terraform/terraform.tfvars.example
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Terraform
+.terraform/
+*.tfstate*
+*.tfplan
